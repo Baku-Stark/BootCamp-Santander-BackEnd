@@ -1,3 +1,4 @@
+package Pesquisa;
 import java.util.*;
 
 public class SomaNumeros {

@@ -1,4 +1,4 @@
-package todo_list;
+package OperacoesBasicas;
 
 public class Tarefa {
 	private String descricao;
