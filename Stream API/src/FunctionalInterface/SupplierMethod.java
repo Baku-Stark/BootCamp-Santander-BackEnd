@@ -5,8 +5,6 @@ import java.util.stream.*;
 
 public class SupplierMethod {
 	public void main(String[] args) {
-		//Supplier<String> saudacao = () -> "Hello!";
-		
 		List<String> listaSaudacao = Stream.generate(
 				() -> {
 					return "Hello, Wallace!";
