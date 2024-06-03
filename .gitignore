@@ -1,7 +1,9 @@
-
-Stream API/.classpath
-Stream API/.project
-Desafios/Banco Digital/.project
-Desafios/Banco Digital/.classpath
-Desafios/DesafioPOO/.classpath
-Desafios/DesafioPOO/.project
+bin
+*/.classpath
+*/.project
+*/*/.project
+*/*/.classpath
+*/*/.classpath
+*/*/.project
+*/*/*/.classpath
+*/*/*/.project
