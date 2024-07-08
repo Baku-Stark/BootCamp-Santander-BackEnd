@@ -20,11 +20,13 @@ public class UserController {
 
     @PostMapping
     public void save(@RequestBody Usuario user){
+        System.out.println(user);
         repository.save(user);
     }
 
     @PutMapping
     public void update(@RequestBody Usuario user){
+        System.out.println(user);
         repository.save(user);
     }
 
