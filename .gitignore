@@ -7,3 +7,4 @@ bin
 */*/.project
 */*/*/.classpath
 */*/*/.project
+todo_list/src/main/resources/application.properties
