@@ -23,4 +23,9 @@ public class TodoRepository {
         todos.add(req);
         return req;
     }
+
+    public ArrayList<String> deleteTodo(int id) {
+        return (todos.isEmpty()) ? null : todos.remove(id - 1);
+
+    }
 }

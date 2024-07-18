@@ -25,4 +25,18 @@ public class TodoController {
         //System.out.println("Title: " + title + ", Description: " + description);
         return todoRepository.createTodo(title, description);
     }
+
+    @DeleteMapping
+    public String deleteTodo(int id) {
+        try {
+            System.out.println(todoRepository.deleteTodo(id));
+        }
+
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+            return "Not found";
+        }
+
+        return "Todo deleted!";
+    }
 }
