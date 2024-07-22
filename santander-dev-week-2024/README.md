@@ -1,7 +1,6 @@
 # Santander Dev Week 2024
 
-[Spring Initializr Config](https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.3.
-2&packaging=jar&jvmVersion=22&groupId=me.dio&artifactId=santander-dev-week-2024&name=santander-dev-week-2024&description=Java%20RESTFUL%20API&packageName=me.dio&dependencies=web,data-jpa,h2,postgresql)
+[Spring Initializr Config](https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.3.2&packaging=jar&jvmVersion=22&groupId=me.dio&artifactId=santander-dev-week-2024&name=santander-dev-week-2024&description=Java%20RESTFUL%20API&packageName=me.dio&dependencies=web,data-jpa,h2,postgresql)
 
 
 ----
