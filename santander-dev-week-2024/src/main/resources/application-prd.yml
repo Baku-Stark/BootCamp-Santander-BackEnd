@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway
+    username: postgres
+    password: ${PGPASS}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  flyway:
+    enabled: false
